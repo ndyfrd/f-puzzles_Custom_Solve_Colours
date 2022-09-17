@@ -28,7 +28,7 @@
 
 const customSolverHighlights = 	[
 										  /*1*/      /*2*/      /*3*/       
-									  /*Reserved*/ '#A8A8A8', '#000000', 
+									  	'#FFFFFF', '#A8A8A8', '#000000', 
 										  /*4*/      /*5*/      /*6*/       
 							            '#FFA0A0', '#FFE060', '#FFFFB0', 
 										  /*7*/      /*8*/      /*9*/       
