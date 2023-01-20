@@ -16,35 +16,35 @@
 
     //-------------------------------------------------------------------//
     //                                                                   //
-    //   					 Custom Solver Colours.                      //
+    //                       Custom Solver Colours.                      //
     //                                                                   //
     //      Edit below to create custom solving highlight colours.       //
-    //      The current colours are the f-puzzles defaults.              //
+    //      The colours currently in use are the f-puzzles defaults.     //
     //                                                                   //
     //-------------------------------------------------------------------//
 
 
 
 
-const customSolverHighlights = 	[
+const customSolverHighlights =	[
 										  /*1*/      /*2*/      /*3*/       
-									  	'#FFFFFF', '#A8A8A8', '#000000', 
+										'#000000', '#A8A8A8', '#FFFFFF', 
 										  /*4*/      /*5*/      /*6*/       
-							            '#FFA0A0', '#FFE060', '#FFFFB0', 
+										'#FFA0A0', '#FFE060', '#FFFFB0', 
 										  /*7*/      /*8*/      /*9*/       
 										'#B0FFB0', '#60D060', '#D0D0FF',
-								     	  /*10*/     /*11*/     /*12*/      
+										  /*10*/     /*11*/     /*12*/      
 										'#8080F0', '#FF80FF', '#FFD0D0' 
 								];
 
 
 
 
-    			//-------------------------------------//
-    			//                                     //
-    			//          End of user edits.         //
-    			//                                     //
-    			//-------------------------------------//
+				//-------------------------------------//
+				//                                     //
+				//          End of user edits.         //
+				//                                     //
+				//-------------------------------------//
 
 
 
@@ -57,7 +57,6 @@ const customSolverHighlights = 	[
 	'use strict';
 
 	const doShim = function() {
-		customSolverHighlights.splice(0, 0, '#FFFFFF');
 
 		const prevOnKeyDown = document.onkeydown;
 		document.onkeydown = function(event) {
